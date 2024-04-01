@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/sync-async.css">
+        <title>sync-async</title>
+    </head>
+    <body>
+        <h1>Sync vs Async</h1>
+
+        <div class="buttons">
+            <button onclick="sayHello()">Hello</button>
+            <button onclick="loop()">Loop</button>
+            <button onclick="timeout(this)" class="btn-timeout">Timeout <span></span></button>
+            <button onclick="interval(this)" class="btn-timeout">Interval</button>
+            <button onclick="toggleBounceAnimation(this)" class="btn-animation">Animation</button>
+        </div>
+        
+        <div class="ball" style="animation-play-state: paused;"></div>
+        
+        <script src="js/sync-async.js"></script>
+    </body>
+</html>
